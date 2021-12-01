@@ -1,0 +1,134 @@
+/* These are styles to overwite the chat engine default styling */
+/* Class names are pre defined by engine cannot rename them  */
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.ce-chat-list {
+  background-color: white !important;
+}
+
+.ce-chats-container {
+  background-color: white !important;
+}
+.ce-chat-card {
+  background-color:rgb(173, 173, 173) !important;
+  border-radius: 5px !important;
+  margin:2%;
+}
+.ce-active-chat-card {
+  background-color: #343f56 !important;
+  color:#f54748 !important;
+  
+}
+.ce-active-chat-card:hover {
+  background-color: #202735 !important;
+}
+.ce-chat-subtitle-text {
+  display:none !important;
+}
+
+.ce-chat-form-container {
+  padding-bottom: 20px !important;
+}
+
+.ce-text-input {
+  border-radius: 6px !important;
+}
+.ce-chat-settings-container div{
+  margin-top:-20% !important;
+  font-size:30px !important;
+}
+
+
+.ce-primary-button {
+  border-radius: 6px !important;
+  background-color: #f54748 !important;
+  position: relative;
+  bottom: 1px;
+}
+
+.ce-danger-button {
+  background-color: white !important;
+  border-radius: 22px !important;
+}
+
+.ce-settings {
+  background-color: white !important;
+}
+
+.ce-autocomplete-input {
+  border-radius: 6px !important;
+  border: none !important;
+  outline: none !important;
+}
+.ce-autocomplete-input:hover {
+  background-color: rgb(182, 182, 182) !important;
+}
+.ce-autocomplete-input::placeholder {
+  color: black;
+  font-family: "Ubuntu", sans-serif;
+}
+.ce-autocomplete-options {
+  border-radius: 6px !important;
+  border: 1px solid #3b2a50 !important;
+  background-color: white !important;
+}
+
+.ce-chat-settings-container {
+  padding-top: 12px !important;
+}
+
+.ce-chat-avatars-row {
+  display: none !important;
+}
+.ce-text-input {
+  font-size: 25px !important;
+}
+
+.ce-person-container {
+  font-weight: 500;
+}
+
+.ce-avatar-status {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.ce-chat-feed-container{
+  margin-right:5% !important;
+    min-height: 80vh !important ;
+    max-height:80vh !important;
+    
+}
+.ce-person-avatar .ce-avatar{
+    display: block
+}
+.ce-avatar, .ce-avatar-dot{
+    display: none;
+}
+.ce-autocomplete-option .ce-avatar{
+  display: block
+}
+.ce-their-message-avatar{
+  display:none !important; 
+}
+.ce-their-message-sender{
+  padding: 5px 0px;
+}
+.ce-message-bubble.ce-their-message-bubble{
+    margin-left:-20px !important;
+    background-color: #F54748 !important;
+}
+.ce-message-bubble.ce-my-message-bubble{
+     background-color: #343F56 !important;
+}
+.ce-chat-title-text{
+    color:#F54748
+}
+.ql-editor, .ql-editor::placeholder{
+  color:black;
+}
+.ce-send-message-button{
+  display: none;
+}

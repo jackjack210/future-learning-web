@@ -1,0 +1,36 @@
+
+/* flex styling for containers */
+.dashboard-wrapper,
+.nav-bar,
+.nav-bar-list,
+.nav-bar-list ul,
+.display-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: 2%;
+}
+
+/* Nav bar conatiner */
+.nav-bar-list {
+  height: 60vh;
+  background-color: #343f56;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
+  position:fixed;
+}
+
+.nav-bar-list ul {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  height: 60vh;
+}
+
+/* section holding components to be displayed */
+.display-section {
+  flex-direction: column;
+  width:100%;
+}

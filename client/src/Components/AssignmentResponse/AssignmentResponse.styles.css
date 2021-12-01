@@ -1,0 +1,61 @@
+.assignment-response,
+.assignment-response-header,
+.assignment-status-list,
+.response-response-list,
+.assignee-tile,
+.assinees-list {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.response-count{
+    margin:1%;
+    font-size:18px;
+}
+
+.response-response-list{
+    flex-direction: row;
+    margin:3%;
+}
+.assinees-list{
+    width:80%;
+    min-height:200px;
+    justify-content:flex-start;
+}
+.status-title{
+    font-size:17px;
+    margin-bottom:5%;
+}
+.assignee-tile,.mail-btn{
+    background-color: #343F56;
+    color:#F54748;
+    width:max-content;
+    height:30px;
+    padding:1%;
+    border-radius: 5px;
+    margin:1%;
+}
+
+.mail-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    
+}
+
+.mail-btn{
+    outline:none;
+    border:none;
+    cursor:pointer;
+}
+@media (max-width: 500px) {
+  .display-tab{
+      font-size:14px;
+
+  }
+}

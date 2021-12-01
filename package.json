@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dateformat": "^4.5.1",
+    "dotenv": "^10.0.0",
+    "email-templates": "^8.0.7",
+    "express": "^4.17.1",
+    "express-pino-logger": "^6.0.0",
+    "handlebars": "^4.7.7",
+    "mongoose": "^5.12.13",
+    "nodemailer": "^5.1.1",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemailer-handlebars": "^1.0.0",
+    "nodemon": "^2.0.7",
+    "pino": "^6.11.3",
+    "sha256": "^0.2.0",
+    "socket.io": "^4.1.2",
+    "twilio": "^3.63.1",
+    "uuid": "^8.3.2"
+  }
+}

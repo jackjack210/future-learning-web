@@ -1,0 +1,116 @@
+.display-assignment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:85%;
+    height:100vh;
+    margin-bottom:10%;
+}
+.display-panel-left,
+.display-panel-right{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column;
+    align-items: flex-start;
+    width:85%;
+    height:80vh;
+}
+.display-panel-left{
+    padding-left:5%;
+}
+.display-panel-right{
+    align-items: center;
+}
+.home-icon{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.display-title{
+    font-size: 40px;
+    color:#343F56;
+}
+.display-tab,.instruction-tab{
+    background-color:#343F56;
+    width:max-content;
+    height:40px;
+    border-radius:5px;
+    color:#F54748;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding:1%;
+    margin-right:1%;
+}
+.instruction-tab{
+    padding:5%;
+    margin-right:15%;
+}
+.display-assignment-section {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.display-instruction-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.instructions-title{
+    margin-bottom: 1%;
+}
+.test-link{
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: 400;
+    font-size:15px;
+}
+
+.work-link{
+    border: 1px solid black;
+    outline:none;
+    border-radius: 5px;
+    height:30px;
+    text-align: center;
+    width:200px;
+}
+
+
+iframe{
+    border:none !important;
+    height:400px !important;
+    width:100%;
+}
+
+
+  
+.btn-shine{
+  
+  color: #ffffff;
+  background: linear-gradient(to right, #F54748 0, #343F56 30%, #F54748 45%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 1s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none;
+  white-space: nowrap;
+    }
+@keyframes shine
+ { 0%
+    {background-position: 0;}
+  60%
+    {background-position: 200px;}
+  100%
+    {background-position: 200px;}}
+
+    .submission-status{
+        font-size:18px;
+    }

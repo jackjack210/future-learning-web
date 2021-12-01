@@ -1,0 +1,39 @@
+.attendee-wrapper{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: flex-start;
+    align-items: center; */
+}
+
+.screen-frame video{
+    position: fixed;
+    top: 0;
+    left:0;
+    height:80vh;
+    width:100vw;
+}
+.meet-frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meet-frame video{
+    border-radius: 10px;
+    height:300px;
+    width:400px;
+    margin-top:10px
+}
+.frame-title{
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 650px) {
+ .meet-frame video{
+    border-radius: 10px;
+    height:200px;
+    width:350px;
+    margin-top:10px
+}
+}

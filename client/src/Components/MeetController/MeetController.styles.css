@@ -1,0 +1,37 @@
+.control-panel{
+    width:30%;
+    background-color: white;
+    border-radius:10px;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    bottom:20px;
+}
+
+.control-panel span{
+    height:50px;
+    width:55px;
+    border-radius: 50%;
+    margin:10%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.control-icon{
+    cursor:pointer;
+}
+
+
+@media (max-width: 650px) {
+ .control-panel{
+    width:60%;
+    background-color: white;
+    border-radius:10px;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+}
